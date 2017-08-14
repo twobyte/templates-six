@@ -13,9 +13,8 @@
 
 
 <!-- Styling -->
+<link href="{$WEB_ROOT}/templates/{$template}/css-styles/style.css?v={$versionHash}" rel="stylesheet">
 
-<link href="{$WEB_ROOT}/templates/{$template}/css/all.min.css?v={$versionHash}" rel="stylesheet">
-<link href="{$WEB_ROOT}/templates/{$template}/css/custom.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

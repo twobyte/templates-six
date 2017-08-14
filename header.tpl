@@ -88,11 +88,7 @@
             {/if}
         </ul>
 
-        {if $assetLogoPath}
-            <a href="{$WEB_ROOT}/index.php" class="logo"><img src="{$assetLogoPath}" alt="{$companyname}"></a>
-        {else}
-            <a href="{$WEB_ROOT}/index.php" class="logo logo-text">{$companyname}</a>
-        {/if}
+        <a href="https://tastydigital.com/"><img src="{$WEB_ROOT}/templates/{$template}/img/TastyDigital-logo.png" srcset="{$WEB_ROOT}/templates/{$template}/img/TastyDigital-logo.png 1x, {$WEB_ROOT}/templates/{$template}/img/TastyDigital-logo@2x.png 2x" alt="{$companyname}" /></a>
 
     </div>
 </section>
